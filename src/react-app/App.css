@@ -78,3 +78,30 @@
   max-height: 90vh;
   border-radius: 10px;
 }
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  background: rgba(255,255,255,.15);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  transition: .2s;
+}
+
+.nav-btn:hover {
+  background: rgba(255,255,255,.3);
+}
+
+.left {
+  left: 40px;
+}
+
+.right {
+  right: 40px;
+}
